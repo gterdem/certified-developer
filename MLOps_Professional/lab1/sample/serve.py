@@ -3,7 +3,7 @@ import logging
 import warnings
 
 from fastapi import FastAPI
-from data_model import MaintenancePayload
+from data_model import MaintenancePayload, SupportbotPayload
 from maintenance import test_maintenance
 
 
@@ -24,6 +24,19 @@ async def ping():
         response from server on health status
     """
     return {"message":"Server is Running"}
+
+@app.post("/supportbot")
+async def supportbot(payload: SupportbotPayload):
+    """Returns a hard-coded response of "bring the harvester in for maintenance" when prompted with the text string "help"
+
+    Returns
+    -------
+    API response
+        response from server
+    """
+    support_result = "bring the harvester in for maintenance" if payload.prompt == "help" else "Command not supported!"
+    return {"message": support_result }
+
 
 @app.post("/maintenance")
 async def predict(payload:MaintenancePayload):
