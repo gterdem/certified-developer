@@ -28,7 +28,7 @@ async def ping():
 @app.post("/maintenance")
 async def predict(payload:MaintenancePayload):
     
-    maintenance_result = test_maintenance(payload.temperature)
+    maintenance_result = test_maintenance(payload.temperature, payload.pressure)
     return {"msg": "Completed Analysis", "Maintenance Status": maintenance_result}
 
 if __name__ == "__main__":

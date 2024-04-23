@@ -1,6 +1,6 @@
 # maitnenace test business logic
 
-def test_maintenance(temperature:int):
+def test_maintenance(temperature:int, pressure:int):
     """_summary_
 
     Parameters
@@ -13,6 +13,6 @@ def test_maintenance(temperature:int):
     str
         'Approved' or 'Denied' based on temperature readings
     """
-    maintenance_status = 'Needs Maintenance' if temperature > 50 else 'No Maintenance Required'
+    maintenance_status = 'Needs Maintenance' if temperature > 50 or pressure > 2000 else 'No Maintenance Required'
     
     return maintenance_status
