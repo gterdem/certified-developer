@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/certified-developer/MLOps_Professional/lab4/sample/mlruns/622007107493153560/0d40ba24d77a4fdab79b175993c65cd0/artifacts
+end_time: 1714163991909
+entry_point_name: ''
+experiment_id: '622007107493153560'
+lifecycle_stage: active
+run_id: 0d40ba24d77a4fdab79b175993c65cd0
+run_name: serious-cow-427
+run_uuid: 0d40ba24d77a4fdab79b175993c65cd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714163987601
+status: 3
+tags: []
+user_id: ubuntu

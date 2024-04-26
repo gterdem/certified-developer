@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/certified-developer/MLOps_Professional/lab4/sample/mlruns/622007107493153560/49af9313b67b4a789af780d68974c29f/artifacts
+end_time: 1714164064196
+entry_point_name: ''
+experiment_id: '622007107493153560'
+lifecycle_stage: active
+run_id: 49af9313b67b4a789af780d68974c29f
+run_name: classy-goat-792
+run_uuid: 49af9313b67b4a789af780d68974c29f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714164060712
+status: 3
+tags: []
+user_id: ubuntu
