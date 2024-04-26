@@ -1,0 +1,3 @@
+curl -X POST http://localhost:5000/train -H 'Content-Type: application/json' -d '{"file":"sensor_data.pkl", "model_name":"model", "model_path":"./", "test_size":25, "ncpu":4, "mlflow_tracking_uri":"./mlruns", "mlflow_new_experiment":"apples01"}'
+
+{"msg":"Model trained succesfully","validation scores":0.76}(base)
