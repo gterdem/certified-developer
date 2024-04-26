@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1714145827765
+current_stage: Staging
+description: ''
+last_updated_timestamp: 1714145919461
+name: apple01
+run_id: 21f37d190ef54ef2826319d634ba77aa
+run_link: ''
+source: /home/ubuntu/certified-developer/MLOps_Professional/lab3/sample/mlruns/209368982038474321/21f37d190ef54ef2826319d634ba77aa/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 1

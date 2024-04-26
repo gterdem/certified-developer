@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/certified-developer/MLOps_Professional/lab3/sample/mlruns/209368982038474321/12de5073eab14804abacc7484d901f6f/artifacts
+end_time: 1714145742712
+entry_point_name: ''
+experiment_id: '209368982038474321'
+lifecycle_stage: active
+run_id: 12de5073eab14804abacc7484d901f6f
+run_name: painted-shoat-982
+run_uuid: 12de5073eab14804abacc7484d901f6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714145742677
+status: 3
+tags: []
+user_id: ubuntu
