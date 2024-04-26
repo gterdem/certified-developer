@@ -1,0 +1,2 @@
+ps -A | grep gunicorn to fist the processes of mlflow ui
+pkill -f gunicorn to kill these processes
