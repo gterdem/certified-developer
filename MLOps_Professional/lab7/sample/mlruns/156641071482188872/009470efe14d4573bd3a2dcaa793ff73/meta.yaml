@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/certified-developer/MLOps_Professional/lab7/sample/mlruns/156641071482188872/009470efe14d4573bd3a2dcaa793ff73/artifacts
+end_time: 1715203355594
+entry_point_name: ''
+experiment_id: '156641071482188872'
+lifecycle_stage: active
+run_id: 009470efe14d4573bd3a2dcaa793ff73
+run_name: dapper-finch-591
+run_uuid: 009470efe14d4573bd3a2dcaa793ff73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715203351219
+status: 3
+tags: []
+user_id: ubuntu

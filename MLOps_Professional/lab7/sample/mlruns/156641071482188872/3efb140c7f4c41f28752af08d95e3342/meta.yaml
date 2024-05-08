@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/certified-developer/MLOps_Professional/lab7/sample/mlruns/156641071482188872/3efb140c7f4c41f28752af08d95e3342/artifacts
+end_time: 1715203314744
+entry_point_name: ''
+experiment_id: '156641071482188872'
+lifecycle_stage: active
+run_id: 3efb140c7f4c41f28752af08d95e3342
+run_name: luminous-bass-329
+run_uuid: 3efb140c7f4c41f28752af08d95e3342
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715203309252
+status: 3
+tags: []
+user_id: ubuntu
